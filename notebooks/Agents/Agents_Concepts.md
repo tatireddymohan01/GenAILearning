@@ -71,7 +71,7 @@ Q4: 'Search docs for RAG and also calculate 25 * 4'     → uses multiple tools
 | `4StructuredOutputAgent.ipynb` | Agent | `create_agent` + Pydantic | Typed output schema |
 | `5ConversationalAgent.ipynb` | Agent | `create_agent` + history | Multi-turn memory |
 | `6RAGAgent.ipynb` | Agent | `create_agent` + FAISS | Vectorstore as a tool |
-| `MultiAgent_Router.ipynb` | Agent | `create_agent` × N | Router + specialized sub-agents |
+| `7MultiAgent_Router.ipynb` | Agent | `create_agent` × N | Router + specialized sub-agents |
 | `8PlanAndExecuteAgent.ipynb` | Agent | `create_agent` executor | Plan first, execute step by step |
 | `9SelfCorrectingAgent.ipynb` | Agent | `create_agent` + critic | Auto-retry on failure |
 
@@ -313,7 +313,7 @@ One agent handles all task types — no specialization per domain.
 ---
 
 ## Concept 7 — Multi-Agent (Router Pattern)
-**Notebook: MultiAgent_Router.ipynb**
+**Notebook: 7MultiAgent_Router.ipynb**
 
 ### Core Concept
 
@@ -449,7 +449,7 @@ Foundation: LLM + Tool Binding
 | 4StructuredOutputAgent | `create_agent` + Pydantic schema — typed output |
 | 5ConversationalAgent | `create_agent` + message history — remembers across turns |
 | 6RAGAgent | `create_agent` + FAISS — agent decides when to retrieve |
-| MultiAgent_Router | Router + specialized `create_agent` per domain |
+| 7MultiAgent_Router | Router + specialized `create_agent` per domain |
 | 8PlanAndExecuteAgent | Planner → `create_agent` executor → Synthesizer |
 | 9SelfCorrectingAgent | `create_agent` + Critic LLM + retry loop |
 
