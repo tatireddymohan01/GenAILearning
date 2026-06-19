@@ -63,8 +63,11 @@ Q4: 'Search docs for RAG and also calculate 25 * 4'     → uses multiple tools
 
 ## Notebook Map
 
+Start with `0AgentLearningPath.ipynb` to understand the exact run order.
+
 | Notebook | Type | Framework | Key Learning |
 |----------|------|-----------|-------------|
+| `0AgentLearningPath.ipynb` | **Start Here** | Orientation | Learning order + study routine |
 | `1LLMWithTools.ipynb` | **Foundation** | Manual (no agent) | bind_tools, YOU run the loop |
 | `2ReActAgent.ipynb` | Agent | `create_react_agent` + `AgentExecutor` | Thought/Action/Observation |
 | `3ToolCallingAgent.ipynb` | Agent | `create_agent` | Autonomous loop, native tool calling |
@@ -443,6 +446,7 @@ Foundation: LLM + Tool Binding
 
 | Notebook | One-line summary |
 |----------|-----------------|
+| 0AgentLearningPath | Learning path, execution order, and notebook strategy |
 | 1LLMWithTools | `bind_tools` + manual loop — YOU are the agent |
 | 2ReActAgent | `create_react_agent` — Thought/Action/Observation, transparent |
 | 3ToolCallingAgent | `create_agent` — autonomous, native tool calling, simplest agent |

@@ -1,0 +1,16 @@
+{
+    "name": null,
+    "input_variables": [
+        "language",
+        "topic"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "Explain {topic} in {language}",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}
