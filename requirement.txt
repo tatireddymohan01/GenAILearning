@@ -2,6 +2,7 @@ langchain
 langchain-core
 langchain-community
 langchain-openai
+langchain-anthropic
 langchain-text-splitters
 python-dotenv
 ipykernel
@@ -15,7 +16,7 @@ arxiv
 ddgs
 xmltodict
 
-beautifulsoup4 
+beautifulsoup4
 requests
 lxml
 html5lib
@@ -24,3 +25,9 @@ playwright
 faiss-cpu
 rank_bm25
 openai
+
+# Azure
+azure-storage-blob
+azure-identity
+azure-ai-documentintelligence
+azure-search-documents

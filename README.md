@@ -9,7 +9,7 @@ Each topic is organized into numbered notebooks — concept by concept — so yo
 |--------|----------|
 | `notebooks/RAG/` | 12 RAG techniques from Simple RAG → Multi-hop RAG |
 | `notebooks/Prompt_Message/` | 10 prompting techniques from PromptTemplate → Optimization |
-| `notebooks/Agents/` | Tool calling, Math agent, Multi-agent, RAG chain agent |
+| `notebooks/Agents/` | 9-step agent journey: tools → ReAct → tool-calling → memory → RAG → multi-agent → self-correction |
 | `notebooks/Memory/` | Buffer memory with session history |
 
 ---
@@ -55,10 +55,18 @@ GenAI_Leaning/
     │   └── 10PromptOptimization.ipynb
     │
     ├── Agents/
-    │   ├── 5LLMWithToolCalling.ipynb
-    │   ├── 6MathAgent.ipynb
-    │   ├── 7MultiAgent.ipynb
-    │   └── 8MathWithRAGChainAgent.ipynb
+    │   ├── Agents_Concepts.md           # Full concept guide (read this first)
+    │   ├── AgentUtils.py                # Shared utilities for all Agent notebooks
+    │   ├── 0AgentLearningPath.ipynb
+    │   ├── 1LLMWithTools.ipynb
+    │   ├── 2ReActAgent.ipynb
+    │   ├── 3ToolCallingAgent.ipynb
+    │   ├── 4StructuredOutputAgent.ipynb
+    │   ├── 5ConversationalAgent.ipynb
+    │   ├── 6RAGAgent.ipynb
+    │   ├── 7MultiAgent_Router.ipynb
+    │   ├── 8PlanAndExecuteAgent.ipynb
+    │   └── 9SelfCorrectingAgent.ipynb
     │
     └── Memory/
         └── 9emory.ipynb              # Buffer memory with RunnableWithMessageHistory

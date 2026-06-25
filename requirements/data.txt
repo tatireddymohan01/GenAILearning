@@ -1,0 +1,7 @@
+pandas
+oracledb
+pyodbc
+wikipedia
+arxiv
+ddgs
+xmltodict
