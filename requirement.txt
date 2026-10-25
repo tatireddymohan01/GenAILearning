@@ -26,6 +26,12 @@ faiss-cpu
 rank_bm25
 openai
 
+# Memory (notebooks 1-7 use langchain-community which is already listed above)
+# Memory notebook 8 — LangGraph (install when ready for Phase 3)
+langgraph
+# langgraph-checkpoint-sqlite    # optional: persistent memory across restarts
+# langgraph-checkpoint-postgres  # optional: production-grade persistence
+
 # Azure
 azure-storage-blob
 azure-identity
